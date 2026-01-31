@@ -1,0 +1,28 @@
+valuation-platform/
+├── backend/
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── valuation/
+│   │   │   ├── registry.py
+│   │   │   ├── pe.py
+│   │   │   ├── historical.py
+│   │   │   └── scenario.py
+│   │   └── data_provider.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── app/
+│   │   ├── [locale]/
+│   │   │   ├── page.tsx
+│   │   │   └── layout.tsx
+│   │   └── components/
+│   │       ├── ModelSelector.tsx
+│   │       └── ScenarioResult.tsx
+│   ├── messages/
+│   │   ├── tr.json
+│   │   └── en.json
+│   ├── next.config.js
+│   └── package.json
+│
+└── README.md
